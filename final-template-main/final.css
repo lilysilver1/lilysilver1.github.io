@@ -1,0 +1,168 @@
+/*This is the CSS page for our final template.*/
+
+
+
+.footer p {
+    background-color: #708090; 
+    color: #FFF5EE; 
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 16px; 
+    margin-bottom: 0;
+}
+
+
+body {
+    background-color: #FFF5EE; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: #2C3E50; 
+    text-align: center; 
+    font-family: 'Georgia', serif; 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 800px; 
+    line-height: 1.2; 
+}
+
+.header h1 {
+    font-size: 40px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.header h2 {
+    font-style: italic; 
+    font-size: 20px; 
+    color: #555; 
+    margin: 10px auto; 
+    line-height: 1.4; 
+    width: 100%; 
+}
+
+.header p.author {
+    font-family: 'Lora', serif; 
+    font-size: 18px; 
+    color: #777; 
+    margin-top: 10px; 
+    text-align: center; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 800px; 
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    text-align: justify; 
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+
+figure {
+    display: block; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+img.photo {
+    max-width: 100%;  
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+figcaption {
+    clear: both; 
+    text-align: center; 
+    margin-top: 5px; 
+    font-family: 'Lora', serif; 
+    font-size: 14px; 
+    color: #555; 
+    max-width: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+iframe {
+    display: block;
+    margin: 30px auto; 
+    width: 600px;
+    height: 475px;
+}
+
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 767px) {
+    
+
+   .footer {
+    position: relative; 
+    width: 100%; 
+    padding: 10px 0; 
+    font-size: 16px; 
+    text-align: center; 
+    margin-top: 20px; 
+    
+}
+
+.footer p {
+    color: #FFF5EE; 
+    font-family: 'Georgia', serif;
+    font-size: 16px; 
+    margin: 0; 
+    text-align: center;
+    width: 90%; 
+    margin-left: 5%; 
+}
+
+    
+    iframe {
+        width: 100%; 
+        margin-right: 0; 
+        margin-left: 0; 
+    }
+
+   
+    h1 {
+        font-size: 28px; 
+    }
+
+    h2 {
+        font-size: 18px; 
+        font-style: italic;
+    }
+
+    h3 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 16px; 
+        line-height: 1.6; 
+        padding: 10px; 
+    }
+
+   
+    .header {
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    
+    img.photo {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto; 
+    }
+
+    
+    figcaption {
+        font-size: 12px; 
+        width: 100%; 
+        text-align: center; 
+    }
+}
